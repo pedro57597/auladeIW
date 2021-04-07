@@ -1,13 +1,21 @@
 
         
         body {
-         
-         background-color:#20B2AA;
-         width:85%;
+         background-image: url("../EVO/img_png.png");
+         font-size: 18px;
+
+         }
+
+        .conteiner {
+
+         width:80%;
          margin-left: auto;
          margin-right: auto;
-         font-size: 15px;
+        }
 
+        header, footer{
+         background-color: rgba(165,42,42,0.9);  
+         padding:2%;
 
         }
        
@@ -17,27 +25,65 @@
         text-align:center;
         border-style: inset;
         border-width: 4px 6px;
+        font-family: "Papyrus", Fantasy; 
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 23px;
         
         }
        
         p {
         
-         color: #FFF;
-         text-align:justify;
+        color: #FFF;
+        text-align:justify;
+        font-family: "Lucida Handwriting", cursive;
+        margin-top: 2%;
+        margin-bottom: 2%;
+
          
 
+        }
+
+        .centro{
+
+        color: #9FB6CD;
+        text-align: center;
+        }
+
+        ul li{
+        color: #FFF;
+        text-align:justify;
+        margin-top: 2%;
+        margin-bottom: 2%;
+         
+
+        }
+
+        ol li{
+
+        color: #FFF;
+        text-align:justify;
+        margin-top: 1%;
+        margin-bottom: 1%;
         }
        
         figure{
         text-align: center;
         border-style: inset;
-        border-width:  8px;
+        border-width:  11px;
+        margin-top: 1%;
+        margin-bottom: 1%;
 
 
         }
 
         img{
-            width: 85%
+        width: 55%
+        border-style: inset;
+        border-width:  6px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+
         }
 
         a:link {
@@ -51,10 +97,33 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color:  #9FB6CD ;
 }
 
 /* selected link */
 a:active {
   color: blue;
+}
+
+table, td, th {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  padding: 8px;
+ 
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tr {
+   font-family: "Garamond", Times, serif;
+  color: #FFF ;
+}
+th {
+  
+  color: #FFF;
+  text-align:justify;
+ 
 }
