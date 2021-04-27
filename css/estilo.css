@@ -114,13 +114,20 @@ table, td, th {
  
   
 }
-
+td {
+ font-family: "Garamond", Times, serif ;
+}
+th{
+ font-family: "Garamond", Times, serif ;
+}
+ 
 table {
   width: 80%;
   border-collapse: collapse;
 }
+
 tr {
-   font-family: "Garamond", Times, serif;
+   font-family: "Garamond", Times, serif ;
  
 }
 th {
