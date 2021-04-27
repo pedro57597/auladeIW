@@ -1,27 +1,28 @@
 
         
-        body {
+      body {
          background-image: url("../EVO/img_png.png");
-         font-size: 18px;
+         background-repeat:round;
+         font-size: 18spx;
 
          }
 
-        .conteiner {
+      .conteiner {
 
          width:80%;
          margin-left: auto;
          margin-right: auto;
         }
 
-        header, footer{
+      header, footer{
          background-color: rgba(165,42,42,0.9);  
          padding:2%;
 
         }
        
-        h1,h2 {
+      h1,h2 {
 
-        color: #00FFFF;
+        
         text-align:center;
         border-style: inset;
         border-width: 4px 6px;
@@ -32,9 +33,9 @@
         
         }
        
-        p {
+      p {
         
-        color: #FFF;
+        
         text-align:justify;
         font-family: "Lucida Handwriting", cursive;
         margin-top: 2%;
@@ -44,14 +45,14 @@
 
         }
 
-        .centro{
+      .centro{
 
         color: #9FB6CD;
         text-align: center;
         }
 
-        ul li{
-        color: #FFF;
+      ul li{
+        
         text-align:justify;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -59,15 +60,15 @@
 
         }
 
-        ol li{
+      ol li{
 
-        color: #FFF;
+        
         text-align:justify;
         margin-top: 1%;
         margin-bottom: 1%;
         }
        
-        figure{
+      figure{
         text-align: center;
         border-style: inset;
         border-width:  11px;
@@ -78,7 +79,7 @@
         }
 
         img{
-        width: 55%
+        width: 75%;
         border-style: inset;
         border-width:  6px;
         margin-top: 1%;
@@ -92,7 +93,7 @@
 
 /* visited link */
 a:visited {
-  color: #FFF;
+  color: red;
 }
 
 /* mouse over link */
@@ -106,6 +107,7 @@ a:active {
 }
 
 table, td, th {
+  width: 80%;
   border-collapse: collapse;
   border: 1px solid #ddd;
   padding: 8px;
@@ -114,16 +116,16 @@ table, td, th {
 }
 
 table {
-  width: 100%;
+  width: 80%;
   border-collapse: collapse;
 }
 tr {
    font-family: "Garamond", Times, serif;
-  color: #FFF ;
+ 
 }
 th {
   
-  color: #FFF;
+  
   text-align:justify;
  
 }
