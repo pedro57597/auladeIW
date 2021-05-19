@@ -1,57 +1,139 @@
+      html{
+         scroll-behavior: smooth;
 
+      }
         
       body {
-         background-image: url("../EVO/img_png.png");
-         background-repeat:round;
+         background-color: #f2b3ca;
          font-size: 18spx;
 
          }
 
       .conteiner {
-
+         margin-top: 30%;
          width:80%;
          margin-left: auto;
          margin-right: auto;
+         position: relative;
         }
+
+
+        /*tela menor que 599px*/
+@media screen and (max-width: 599px){
+          .conteiner{
+            margin-top: 80%;
+          }
+        }
+
+
+        /*tela maior que 600px*/
+@media screen and (min-width: 600px){
+          .conteiner{
+            margin-top: 40%;
+          }
+        }
+
+        /*telas maiores que 768px*/
+@media screen and (min-width: 768px){
+          .conteiner{
+            margin-top: 25%; }
+
+          header{
+            background-color: rgba(217,74,167,0.8); 
+            flex-direction: row;
+            position: relative;
+            }
+
+          .menu-opcoes{
+             position: absolute;
+             right: 5%;
+             top: 45%;
+          }
+          
+          .menu-opcoes ul li{
+             
+            display: inline;
+            margin-left: 10px
+          }
+        }
+
 
       header, footer{
-         background-color: rgba(165,42,42,0.9);  
-         padding:2%;
+         background-color: rgba(217,74,167);  
+         padding:0.5%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         font-size: 1.5em;
+         line-height: 1.5;
 
         }
+
+      .fixo {
+
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+
+      }
+
+      h1{
+
+        text-align:center;
+        font-family:"american typewriter" , cursive; 
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 50px;
+      }
        
-      h1,h2 {
+      h2{
 
         
         text-align:center;
-        border-style: inset;
-        border-width: 4px 6px;
-        font-family: "Papyrus", Fantasy; 
+        font-family: "american typewriter", cursive; 
         margin-top: 2%;
         margin-bottom: 2%;
-        font-size: 23px;
+        font-size: 35px;
         
         }
+
+      h3{
+
+        text-align:center;
+        font-family: "copperplate", cursive;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 30px;
+      }
        
       p {
         
         
         text-align:justify;
-        font-family: "Lucida Handwriting", cursive;
+        font-family: "brush script", cursive;
         margin-top: 2%;
         margin-bottom: 2%;
+        font-size: 25px;
+        
 
          
 
         }
+
+      .menu-opcoes{
+        text-align: center;
+      }
 
       .centro{
 
-        color: #9FB6CD;
+        color: black;
         text-align: center;
+
         }
 
-      ul li{
+      .listatexto{
         
         text-align:justify;
         margin-top: 2%;
@@ -60,35 +142,44 @@
 
         }
 
-      ol li{
+      .listatexto{
 
         
         text-align:justify;
         margin-top: 1%;
         margin-bottom: 1%;
         }
+
+      .ajuste li:hover{
+        background-color: black;
+        color :pink;
+      }  
        
       figure{
+        margin-top: 30;
         text-align: center;
-        border-style: inset;
-        border-width:  11px;
         margin-top: 1%;
         margin-bottom: 1%;
 
 
         }
 
-        img{
-        width: 75%;
+        .imgtexto{
+        width: 60%;
         border-style: inset;
         border-width:  6px;
         margin-top: 1%;
         margin-bottom: 1%;
+        
 
         }
+        .imglogo{
 
-        a:link {
-  color: green;
+          width: 30%;
+        }
+
+        link {
+  color: black;
 }
 
 /* visited link */
@@ -103,7 +194,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: #fff;
 }
 
 table, td, th {
@@ -114,13 +205,20 @@ table, td, th {
  
   
 }
-
+td {
+ font-family: "Garamond", Times, serif ;
+}
+th{
+ font-family: "Garamond", Times, serif ;
+}
+ 
 table {
   width: 80%;
   border-collapse: collapse;
 }
+
 tr {
-   font-family: "Garamond", Times, serif;
+   font-family: "Garamond", Times, serif ;
  
 }
 th {
