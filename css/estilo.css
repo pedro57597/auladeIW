@@ -23,8 +23,12 @@
           .conteiner{
             margin-top: 80%;
           }
-        }
-
+       
+        .imglogo {
+            width: 50%;
+            right: 10%;
+             }
+       }
 
         /*tela maior que 600px*/
 @media screen and (min-width: 600px){
@@ -55,6 +59,13 @@
             display: inline;
             margin-left: 10px
           }
+          .imglogo {
+            width: 40%;
+            right: 5%;
+             }
+
+          
+
         }
 
 
@@ -173,10 +184,7 @@
         
 
         }
-        .imglogo{
-
-          width: 30%;
-        }
+        
 
         link {
   color: black;
