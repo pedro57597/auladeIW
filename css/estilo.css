@@ -24,10 +24,17 @@
             margin-top: 80%;
           }
        
-        .imglogo {
+          .imglogo {
             width: 50%;
             right: 10%;
              }
+          .imgtab{      
+            width: 60%;
+            border-style: inset;
+            border-width:  6px;
+            margin-top: 1%;
+            margin-bottom: 1%; 
+       }
        }
 
         /*tela maior que 600px*/
@@ -172,6 +179,15 @@
         margin-top: 1%;
         margin-bottom: 1%;
 
+
+        }
+
+        .imgtab{
+        width: 60%;
+        border-style: inset;
+        border-width:  6px;
+        margin-top: 1%;
+        margin-bottom: 1%;
 
         }
 
