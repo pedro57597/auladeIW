@@ -17,27 +17,130 @@
           <nav class="menu-opcoes">
              <ul class="ajustes">
                   <li><a href="index.html">Inicio</a></li>
-                  <li><a href="index.html#Contato">Contato</a></li>
                   <li><a href="posicionamento.html">Catálogo</a></li>
                   <li><a href="javascript.html">Galeria</a></li>
-
+                  <li><a href="index.html#Contato">Contato</a></li>
+                  <li><a href="posicionamento.html#Pedido">Pedido</a></li>
              </ul> 
           </nav>
         </header>
 
     <div class="conteiner">
 
+    	<img class="imglogo2" src="EVO/logotipo2.svg">
+            <br>
+        <h1>    Bolos Da Lia   </h1>
+           <br>
+
     	<h1>Nossa Tabela de sabores.</h1>
 		  <figure>
 			<img class="imgtab" src="EVO/tabela.jpeg">
-		  </figure>	
-            <p class = "abaixodireita"><a href="index.html" target="-blank"> clique aqui </a> para voltar ao inicio</p>
+		  </figure>
+            <div id="Pedido">
+         <h1>Faça seu Pedido aqui:</h1>  
+            <div class="fundos"> 
+              <form >
+                    <div class="distancia">
+                        <label> Nome completo: </label>
+                        <input type="text" >
+                    </div>
+                    <div class="distancia">
+                      <fieldset>
+                        <legend> Qual o estilo de bolo:</legend>
+                        <br>   
+                        <input type="radio"id="male" name="gender" value="male" >
+                        <label for="male">Feminino</label><br>
+                        <input type="radio"id="male" name="gender" value="male">
+                        <label for="female">Masculino</label><br>
+                      </fieldset>
+                    </div>  
+                    <div class="distancia">
+                        <label> Qual o tema do bolo, ou sugestão: </label>
+                        <input type="text" >
+                    </div>
+                    <div class="distancia">
+                      <fieldset>
+                        <legend>Qual a massa do bolo: </legend>
+                        <br>   
+                        <input type="radio"id="male" name="gender" value="male" >
+                        <label for="male">Baunilia</label><br>
+                        <input type="radio"id="male" name="gender" value="male">
+                        <label for="female">Chocolate</label><br>
+                        <input type="radio"id="male" name="gender" value="male">
+                        <label for="female">Red velvet</label><br>
+                      </fieldset>
+                    </div>
+                    <div>
+                        <label for="quantity">Quantos quilos:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="50">
+                    </div>
+                    <div class="distancia">
+                        <label> Qual o sabor do recheio: </label>
+                        <input type="text" >
+                    </div> 
+                    <div>
+                        <label for="birthdaytime">Qual seria a data:</label>
+                        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                    </div>
+                    <div class="distancia">
+                        <label> Nome do aniversariante: </label>
+                        <input type="text" >
+                    </div>
+                    <div class="distancia">
+                        <label> Qual a idade do aniversariante: </label>
+                        <input type="text" >
+                    </div>
+                    <div class="distancia">
+                        <label> Qual o seu numero para contato: </label>
+                        <input type="text" >
+                    </div>  
+                    <div class="distancia">
+                        <label for="cars"> De Qual cidade voce é:</label>
+                        <select id="cars" name="cars">
+                        <option value="Ribeirão pires">Ribeirão Pires </option>
+                        <option value="Rio grande da serra">Mauá</option>
+                        <option value="Maua">Rio Grande Da Serra</option>
+                        <option value="Santo andre">Santo André</option>
+                        </select>
+                    </div>
+                    <div class="distancia">
+                        <label> Qual CEP do seu endereço : </label>
+                        <input type="text" >
+                    </div>
+                    <DIV class="distancia">
+                       <label for="myfile">Alguma ideia de decoração de bolo:</label>
+                       <input type="file" id="myfile" name="myfile"><br><br>
+                    </DIV>
+                    <div class="distancia">
+                       <label> Digite aqui em baixo sua duvida:</label>
+                       <br>
+                       <textarea name="message" rows="10" cols="30" style="width: 80%;height: 150px">Aqui
+                       </textarea>
+                    </div>
+                    
+                    <div class="distancia">  
+                       <input type="submit" value="Enviar">
+                    </div>
+                      
+              </form>   
+            </div>
+
+            <br>
         
      
     </div>
 
-            <footer>
-                <p class = "centro"><p ><a href="index.html" target="-blank">Bolos Da Lia</a> </p></p>
-            </footer>
+           <footer>
+                <p class = "centro"><p ><a href="index.html" target="-blank">Bolos Da Lia</a>  <p> </p> </p></p>
+            <div id="galeria"> 
+              <div>
+                <p> <a href="https://instagram.com/eulalia.lins.1?igshid=rkr8ac3ss8xu/"target="-blank"><img class="imggaleria2" src="EVO/insta.jpg"></a> </p>
+              </div>
+
+              <div class="galeria"> 
+                <p> <a href="https://www.facebook.com/Bolos-Da-Lia-910274422459101//"target="-blank"><img class="imggaleria" src="EVO/face.jpg"></a> </p>
+              </div>  
+            </div> 
+        </footer>
 </body>
 </html>
